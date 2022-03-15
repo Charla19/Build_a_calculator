@@ -31,7 +31,7 @@ fenetre.geometry("500x600")
 fenetre.title("Calculatrice basique")
 
 #Couleur de fond de l'interface de la calculatrice
-fenetre.config(bg="purple")
+fenetre.config(bg="light blue")
 
 valeur = StringVar()
 valeur.set("")
@@ -46,7 +46,7 @@ o2 = ["4","5","6","-"]
 o3 = ["1","2","3","x"]
 o4 = ["0","C","=","/"]
 
-f = Frame(fenetre, bg="purple", padx=10, pady=5)
+f = Frame(fenetre, bg="light blue", padx=10, pady=5)
 
 #Methodes associées à l'option 1 "o1"
 for i in o1:
@@ -54,7 +54,7 @@ for i in o1:
     b.pack(side=LEFT, padx=10, pady=5)
     b.bind("<Button-1>", clique)
 f.pack()
-f = Frame(fenetre, bg="purple", padx=10, pady=5)
+f = Frame(fenetre, bg="light blue", padx=10, pady=5)
 
 #Methodes associées à l'option 2 "o2"
 for i in o2:
@@ -62,7 +62,7 @@ for i in o2:
     b.pack(side=LEFT, padx=10, pady=5)
     b.bind("<Button-2>", clique)
 f.pack()
-f = Frame(fenetre, bg="purple", padx=10, pady=5)
+f = Frame(fenetre, bg="light blue", padx=10, pady=5)
 
 #Methodes associées à l'option 3 "o3"
 for i in o3:
@@ -70,7 +70,7 @@ for i in o3:
     b.pack(side=LEFT, padx=10, pady=5)
     b.bind("<Button-3>", clique)
 f.pack()
-f = Frame(fenetre, bg="purple", padx=10, pady=5)
+f = Frame(fenetre, bg="light blue", padx=10, pady=5)
 
 #Methodes associées à l'option 4 "o4"
 for i in o4:
