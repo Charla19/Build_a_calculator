@@ -7,7 +7,7 @@ from tkinter import *
 #la foncrion qui crée un évènement lors d'un clique
 def clique(evenement) :
     global valeur
-    text = event.widget.cget("text")
+    text = evenement.widget.cget("text")
     if text == '=' :
         if valeur.get().isdigit():
             value = int(valeur.get())
